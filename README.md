@@ -1,6 +1,8 @@
 # Bungaku API Documentation
 
-**Bungaku** is a mobile app designed to enrich knowledge about local flowers by providing flower identification and educational content for each recognized flower. The app utilizes advanced image recognition technology and an extensive botanical database to offer users a comprehensive learning experience.
+# Overview
+
+This API serves as the backend for the Bungaku mobile app, providing endpoints for retrieving flower information, user authentication, and user profile management.
 
 ## Table of Contents
 - [Overview](#overview)
