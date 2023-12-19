@@ -1,9 +1,5 @@
 # Bungaku API Documentation
 
-# Overview
-
-This API serves as the backend for the Bungaku mobile app, providing endpoints for retrieving flower information, user authentication, and user profile management.
-
 ## Table of Contents
 - [Overview](#overview)
 - [API Endpoints](#api-endpoints)
