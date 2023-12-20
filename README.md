@@ -28,17 +28,14 @@ This API serves as the backend for the Bungaku mobile app, providing endpoints f
 ### 1. Get All Flowers
 
 ```
-curl -X GET http://localhost:3000/flowers?lang={lang}
+curl -X GET http://localhost:3000/flowers
 ```
 
-Retrieve information about all available flowers with dual language support (Indonesian and English).
+Retrieve information about all available flowers.
 
 ***Example:***
 ```
-curl -X GET localhost:3000/flowers?lang=en
-```
-```
-curl -X GET localhost:3000/flowers?lang=id
+curl -X GET localhost:3000/flowers
 ```
 
 ### 2. Get Flower Data by Name
@@ -49,17 +46,10 @@ curl -X GET http://localhost:3000/flower/{flower-name}
 
 Retrieve detailed information about a specific flower by providing its name with dual language support (Indonesian and English).
 
-Rules :
-- If you search with Indonesian language, you need to search with the Indonesian name of the flower.
-- If you search with English language, you need to search with the English name of the flower.
-- Otherwise, if you do not use any language parameter, it will default to searching in the English database.
-
 ***Example:***
+
 ```
-curl -X GET localhost:3000/flower/matahari?lang=id
-```
-```
-curl -X GET localhost:3000/flower/sunflower?lang=en
+curl -X GET localhost:3000/flower/sunflower
 ```
 
 ### 3. User Authentication
