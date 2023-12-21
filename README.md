@@ -44,7 +44,7 @@ curl -X GET localhost:3000/flowers
 curl -X GET http://localhost:3000/flower/{flower-name}
 ```
 
-Retrieve detailed information about a specific flower by providing its name with dual language support (Indonesian and English).
+Retrieve detailed information about a specific flower by providing its name.
 
 ***Example:***
 
